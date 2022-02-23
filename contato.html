@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Skina Pizza Quadrada</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img src="images/logo.png" alt="logotipo da pizzaria Skina">
+                <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+            <main>
+                <form>
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere receber o contato?</legend>
+                    <br>
+                    <label for="boxemail"><input type="radio" name="contato" value="email" id="boxemail" checked>Email</label>
+                    
+
+                    <label for="whatsapp"><input type="radio" name="contato" value="whatsapp" id="whatsapp">WhatsApp</label>
+                    
+ 
+                    <label for="ligacao"><input type="radio" name="contato" value="ligacao" id="ligacao">Ligação</label>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                    <label id="checkbox"><input type="checkbox">Gostaria de receber novides e promoções por e-mail?</label>
+
+                    <input type="submit" value="Entrar em contato" class="enviar">
+                </form>
+                
+                
+            </main>
+            <footer>
+                <img src="">
+                <p>Skina dos Manaciais</p>
+                <p>R. Sd. Simplicio de Lara, 410 - Taquara, Rio de Janeiro - RJ, 22720-220</p>
+                <p><img src="images/wppicon.png">Nosso WhatsApp: 21 99813-8033<img src="images/wppicon.png"></p>
+            </footer>
+        </body>
